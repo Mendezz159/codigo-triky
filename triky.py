@@ -208,7 +208,7 @@ def Comprobar_partida():
         return 1
         victoria=True
   for i in range(len(matriz[0])):
-    if matriz[0][i]!=2 and matriz[1][i]!=2 and matriz[2][i]!=2 and (matriz[0][i]==matriz[1][i] and matriz[1][0]==matriz[2][i]):
+    if matriz[0][i]!=2 and matriz[1][i]!=2 and matriz[2][i]!=2 and (matriz[0][i]==matriz[1][i] and matriz[1][i]==matriz[2][i]):
       if matriz[0][i]==0:
         return 0
         victoria=True
